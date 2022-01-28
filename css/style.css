@@ -1,0 +1,197 @@
+body{
+    background-color: black;
+}
+
+/******** Navbar ********/
+#container1{
+    padding: 0px;
+}
+#mainnavbar{
+    font-size: 25px;
+    top: 20px;
+}
+.navbar-brand img{
+    font-size: 20px;
+}
+#navbartoggle{
+        
+}
+#navbarNavAltMarkup{
+}
+#toggleicon{
+    border: 1px solid black;
+    box-shadow: none;
+    width: 40px;
+    border-radius: 7px;
+    height: 35px;
+    padding: 0px;
+    opacity: .5;
+}
+#toggleicon img{
+    width: 20px;
+    position: absolute;
+}
+#navbarNavAltMarkup a {
+    margin-right: 40px;
+    opacity: .7;
+}
+
+/*-------------------Carousel----------------------*/
+#carousel1{
+    
+}
+
+.carousel-item{
+}
+.carousel-inner{
+}
+.d-block{
+}
+
+#img1{
+    height: 569px;
+}
+
+/*------------------Main-body-----------------------*/
+#P1{
+    font-size: 5em;
+    font-family: fahkwang;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+#handsimg{
+    right: 0px;
+}
+#P2{
+    font-family: fahkwang;
+    color: white;
+}
+
+/*-----------------Footer------------------*/
+#foot{
+    background-color: #191f57;
+    color: white;
+    margin-top: 10px;
+}
+#footcont1 a {
+    width: 25px;
+    padding: 0px;
+}
+#foot hr{
+    width: 50%;
+    margin-left: 25%;
+    align-content: center;
+    border: 1px solid #eee;
+}
+
+
+@media (min-width: 992px) and (max-width:1199px){
+    .navbar-brand{
+        padding: 0px;
+        margin-left: 80px;
+        margin-top: 0px;
+    }
+    #foota{
+        margin-left: 45%;
+    }
+    #P1{
+        font-size: 4em;
+        width: 40%;
+        text-align: left;
+    }
+}
+@media (min-width: 880px) and (max-width:991px){
+    .navbar-brand{
+        padding: 0px;
+        margin-left: 60px;
+        margin-top: 0px;
+    }
+    #foota{
+        margin-left: 40%;
+    }
+    #P1{
+        font-size: 3em;
+        width: 40%;
+        text-align: left;
+    }
+}
+@media (min-width: 768px) and (max-width:879px){
+    .navbar-brand{
+        padding: 0px;
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+    #foota{
+        margin-left: 40%;
+    }
+    #P1{
+        font-size: 3em;
+        width: 40%;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    #navbarNavAltMarkup a {
+        font-size: 20px;
+        opacity: .7;
+    }
+    .navbar-brand{
+        padding: 0px;
+        margin-top: -10px;
+    }
+    #toggleicon{
+        margin-top: -25px;
+    }
+    #foot{
+        background-color: #191f57;
+        color: white;
+        text-align: center;
+    }
+    #foota{
+        margin-left: 35%;
+    }
+}
+@media (max-width: 576px){
+    #P1{
+        font-size: 3.5em;
+        font-family: fahkwang;
+        color: white;
+        text-align: center;
+    }
+    #handsimg{
+        margin-left: 0px;
+    }
+    #handsimg img{
+        margin-left: 5%;
+    }
+    #P2{
+        font-size: 1.2em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (min-width: 1200px){
+    .navbar-brand{
+        padding: 0px;
+        margin-left: 80px;
+        margin-top: 0px;
+    }
+    #foota{
+        margin-left: 45%;
+    }
+    #P1{
+        font-size: 5em;
+        width: 40%;
+        text-align: left;
+    }
+    #handsimg{
+        width: 60%;
+        margin-top: -35px;
+        height: 400px;
+    }
+    #P2{
+        font-size: 2em;
+    }
+}
